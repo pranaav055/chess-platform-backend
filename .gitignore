@@ -11,6 +11,8 @@ venv/
 # Environment variables / secrets
 .env
 backend/.env
+.env.*
+!.env.example
 
 # IDE
 .vscode/
@@ -22,6 +24,9 @@ Thumbs.db
 # Database / local files
 *.db
 *.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Node / frontend later
 node_modules/
